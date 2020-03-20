@@ -13,6 +13,7 @@
 		940AA6AC2424D6DC007B170D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940AA6AA2424D6DC007B170D /* Main.storyboard */; };
 		940AA6AE2424D6DE007B170D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940AA6AD2424D6DE007B170D /* Assets.xcassets */; };
 		940AA6B12424D6DE007B170D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940AA6AF2424D6DE007B170D /* LaunchScreen.storyboard */; };
+		940AA6B92424D77A007B170D /* lorem.txt in Resources */ = {isa = PBXBuildFile; fileRef = 940AA6B82424D77A007B170D /* lorem.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		940AA6AD2424D6DE007B170D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		940AA6B02424D6DE007B170D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		940AA6B22424D6DE007B170D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		940AA6B82424D77A007B170D /* lorem.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lorem.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				940AA6A42424D6DC007B170D /* AppDelegate.swift */,
 				940AA6A62424D6DC007B170D /* SceneDelegate.swift */,
 				940AA6A82424D6DC007B170D /* ViewController.swift */,
+				940AA6B82424D77A007B170D /* lorem.txt */,
 				940AA6AA2424D6DC007B170D /* Main.storyboard */,
 				940AA6AD2424D6DE007B170D /* Assets.xcassets */,
 				940AA6AF2424D6DE007B170D /* LaunchScreen.storyboard */,
@@ -126,6 +129,7 @@
 			files = (
 				940AA6B12424D6DE007B170D /* LaunchScreen.storyboard in Resources */,
 				940AA6AE2424D6DE007B170D /* Assets.xcassets in Resources */,
+				940AA6B92424D77A007B170D /* lorem.txt in Resources */,
 				940AA6AC2424D6DC007B170D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
