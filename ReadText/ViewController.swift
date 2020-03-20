@@ -16,9 +16,10 @@ class ViewController: UIViewController {
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        let path = Bundle.main.path (forResource: "lorem", ofType: "txt")!
+        let fileUrl = Bundle.main.url(forResource: "lorem", withExtension: "txt", subdirectory: nil)
+
         do {
-            let textoFichero = try String(contentsOf: URL(string: path)!, encoding: .utf8)
+            let textoFichero = try String(contentsOf: fileUrl!, encoding: .utf8)
             print(textoFichero)
         } catch let error {
            print(error)
